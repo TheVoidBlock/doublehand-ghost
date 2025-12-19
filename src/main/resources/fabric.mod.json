@@ -12,9 +12,6 @@
   "entrypoints": {
     "client": [
       "tk.jandev.totemfake.client.TotemfakeClient"
-    ],
-    "main": [
-      "tk.jandev.totemfake.Totemfake"
     ]
   },
   "mixins": [
