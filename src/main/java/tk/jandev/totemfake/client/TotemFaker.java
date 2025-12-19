@@ -15,5 +15,6 @@ public class TotemFaker {
         PlayerInventory inventory = client.player.getInventory();
         inventory.setSelectedSlot(totemSlot - 1);
         inventory.setStack(totemSlot - 1, Items.TOTEM_OF_UNDYING.getDefaultStack());
+        inventory.setStack(PlayerInventory.OFF_HAND_SLOT, Items.TOTEM_OF_UNDYING.getDefaultStack());
     }
 }
