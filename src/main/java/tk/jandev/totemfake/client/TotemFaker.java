@@ -10,8 +10,8 @@ public class TotemFaker {
     static int totemSlot = 1;
 
     public static int putTotemInHand()  {
-        mc.player.getInventory().selectedSlot = totemSlot-1;
-        mc.player.getInventory().setStack(totemSlot-1, Items.TOTEM_OF_UNDYING.getDefaultStack());
+        mc.player.getInventory().setSelectedSlot(totemSlot - 1);
+        mc.player.getInventory().setStack(totemSlot - 1, Items.TOTEM_OF_UNDYING.getDefaultStack());
         return 1;
     }
 }
